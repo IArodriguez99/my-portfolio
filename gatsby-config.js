@@ -3,6 +3,8 @@ module.exports = {
         siteUrl: `https://www.yourdomain.tld`,
     },
     plugins: [
-        `gatsby-plugin-styled-components`
+        {
+        resolve: `gatsby-plugin-styled-components`,
+        }
     ],
 }
